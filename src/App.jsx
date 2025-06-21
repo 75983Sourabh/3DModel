@@ -2,7 +2,7 @@ export default function App() {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
       <model-viewer
-        src="/door.glb"
+        src="https://3-d-model-steel.vercel.app/door.glb"
         ios-src="/door.usdz"                    // for iOS Quick Look
         ar
         ar-modes="webxr scene-viewer quick-look"
